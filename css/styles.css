@@ -2,15 +2,26 @@ html {
     font-size: 16px;
 }
 
-#section-1 {
+.section1 {
     background-image: url(img/banner-2.jpg);
+    text-align: center;
+}
+
+.section3 {
+    background-color: #25eda5;
+    text-align: center;
+}
+
+.section6 {
+    background-color: #46a6fc;
+    text-align: center;
 }
 
 
 /* Redimensión de fuente utilizando rem */
 
 p {
-    font-size: 1rem;
+    font-size: 3rem;
 }
 
 h1 {
