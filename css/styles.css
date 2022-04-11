@@ -1,27 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
 html {
-    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .section1 {
-    background-image: url(img/banner-2.jpg);
+    background-size: cover;
+    height: 42vh;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.section1 h1 {
     text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.section2 {
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 .section3 {
     background-color: #25eda5;
     text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.section4 {
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 .section6 {
     background-color: #46a6fc;
     text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 
 /* Redimensión de fuente utilizando rem */
 
 p {
-    font-size: 3rem;
+    font-size: 1.3rem;
 }
 
 h1 {
@@ -123,11 +146,6 @@ img {
 
 .padding-m {
     padding: 3%;
-}
-
-.zoom:hover {
-    transform: scale(1.2);
-    transition-duration: 0.5s;
 }
 
 
