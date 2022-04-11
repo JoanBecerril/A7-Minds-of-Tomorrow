@@ -21,6 +21,11 @@ html {
     padding-right: 7%;
 }
 
+.section2 img {
+    height: 100%;
+    width: 100%;
+}
+
 .section3 {
     background-color: #25eda5;
     text-align: center;
@@ -33,6 +38,16 @@ html {
     padding-right: 7%;
 }
 
+.section4 img {
+    height: 100%;
+    width: 100%;
+}
+
+.section5 img {
+    height: 100%;
+    width: 100%;
+}
+
 .section6 {
     background-color: #46a6fc;
     text-align: center;
@@ -42,10 +57,6 @@ html {
 
 
 /* Redimensión de fuente utilizando rem */
-
-p {
-    font-size: 1.3rem;
-}
 
 h1 {
     font-size: 3rem;
@@ -140,7 +151,7 @@ body {
 }
 
 img {
-    height: 200px;
+    height: 100px;
     object-fit: cover;
 }
 
@@ -148,19 +159,19 @@ img {
     padding: 3%;
 }
 
+#footer {
+    font-size: xx-small;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
 
 /* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
-
-.flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 @media only screen and (max-width: 600px) {
     /* column-2 pasará de tener 50% a 100% */
     .column-2 {
-        width: 50%;
+        width: 100%;
     }
     /* column-3 pasará de tener 33.33% a 100% */
     .column-3 {
@@ -169,5 +180,9 @@ img {
     /* column-4 pasará de tener 25% a 50% */
     .column-4 {
         width: 50%;
+    }
+    .section1 {
+        background-size: cover;
+        height: 70vh;
     }
 }
