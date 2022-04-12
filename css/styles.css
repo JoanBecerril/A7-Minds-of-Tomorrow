@@ -8,6 +8,7 @@ html {
     height: 42vh;
     padding-left: 7%;
     padding-right: 7%;
+    display: flex;
 }
 
 .section1 h1 {
@@ -26,19 +27,43 @@ html {
     width: 100%;
 }
 
+.section2 h2 {
+    font-size: 4vh;
+}
+
+.section2 p {
+    font-size: x-large;
+}
+
 .section3 {
     background-color: #25eda5;
     text-align: center;
     padding-left: 7%;
     padding-right: 7%;
+    padding-bottom: 12px;
+}
+
+.section3 h2 {
+    font-size: 4vh;
+}
+
+.section3 img {
+    height: 80%;
+    width: 80%;
+}
+
+.section3 p {
+    font-size: xx-small;
 }
 
 .section4 {
+    font-size: large;
     padding-left: 7%;
     padding-right: 7%;
 }
 
 .section4 img {
+    align-items: center;
     height: 100%;
     width: 100%;
 }
@@ -161,8 +186,20 @@ img {
 
 #footer {
     font-size: xx-small;
-    padding-left: 7%;
-    padding-right: 7%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+#header {
+    color: black;
+    align-items: center;
 }
 
 
