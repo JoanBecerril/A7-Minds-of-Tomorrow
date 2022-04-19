@@ -211,7 +211,7 @@ img {
 
 #footer {
     color: white;
-    padding: 4vh;
+    padding: 10vh;
     background-color: black;
 }
 
@@ -246,5 +246,8 @@ img {
     }
     .section6 h2 {
         font-size: 4vh;
+    }
+    #footer {
+        padding: 4vh;
     }
 }
